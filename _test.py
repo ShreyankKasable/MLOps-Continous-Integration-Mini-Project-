@@ -15,8 +15,8 @@ def test_square():
     assert square(3) == 9, "Test Failed: Square of 3 should be 9"
 
 def test_cube():
-    assert square(2) == 8, "Test Failed: cube of 2 should be 8"
-    assert square(3) == 27, "Test Failed: cube of 3 should be 27"
+    assert cube(2) == 8, "Test Failed: cube of 2 should be 8"
+    assert cube(3) == 27, "Test Failed: cube of 3 should be 27"
 
 def test_fifth_power():
     assert fifth_power(2) == 32, "Test Failed: Fifth power of 2 should be 32"
